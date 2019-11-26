@@ -1,0 +1,55 @@
+body {
+    background-color: #eee;
+}
+.pokemon-species-list {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.pokemon-species-sprite {
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+}
+.pokemon-species-sprite img {
+    padding: 25px;
+    display: inline-block;
+    max-width: 100%;
+    border: none;
+}
+.pokemon-species-name {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkcyan;
+    color: #fff;
+    padding: 20px;
+}
+.slide-arrows {
+  display: flex;
+  justify-content: space-between;
+}
+.slick-prev {
+  left: 0px;
+}
+.slick-next {
+  right: 0px;
+}
+.slick-prev, .slick-next, .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    width: 100px;
+    height: 40px;
+    background-color: cadetblue;
+    cursor: pointer;
+    bottom: -60px;
+    top: auto;
+    color: #fff;
+    font-size: 15px !important;
+    display: inline-block;
+    line-height: 40px;
+}
+.slick-prev:before, .slick-next:before {
+  content: "";
+  font-size: 0;
+}
